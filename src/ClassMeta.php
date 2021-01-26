@@ -215,7 +215,7 @@
         public function getAllTraits(): ?array
         {
             $this->initAllTraits();
-            return $this->traits;
+            return $this->allTraits;
         }
 
         /**
