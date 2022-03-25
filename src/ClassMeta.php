@@ -323,6 +323,7 @@
             $what = static::class;
             $instance = new $what($className);
             self::$instances[$className] = $instance;
+            ClassHelper::preloadClass($className);
             return $instance;
         }
     }
