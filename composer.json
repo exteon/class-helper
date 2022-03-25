@@ -1,6 +1,6 @@
 {
   "name": "exteon/class-helper",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Helper for common class and class namespace functions",
   "type": "library",
   "homepage": "https://github.com/exteon/class-name-helper",
